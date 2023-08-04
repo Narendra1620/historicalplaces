@@ -1,0 +1,63 @@
+/* .hr{
+    border-radius: 40px 30px 40px 30px;
+    display: inline-block;
+    text-align: center;
+    
+    font-size: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+
+    
+    
+} */
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.header{
+    font-size: 50px;
+    background-color: aliceblue;
+    padding: 20px; 
+    border-radius: 20px 30px 20px 30px;
+    animation: heading ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+    
+
+}
+
+
+
+@keyframes heading{
+    0% {
+        background: orange;
+        color:white;
+        
+      }
+      50% {
+        background:#fff;
+        opacity: 1;
+        color:orange;
+      }
+      100% {
+        background:rgb(93, 238, 93);
+        color:white;
+        
+      }
+}
+
+.tajmahal-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    margin: 20px;
+}
+.image-resize{
+    border-radius:10%;
+}
